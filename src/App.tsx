@@ -1,9 +1,9 @@
 const colors = {
   navy: "#1B4332",
   bg: "#FFFFFF",
-  g1: "#2D5A3D",
-  g2: "#1B4332", 
-  g3: "#0F2A1F",
+  g1: "#52B788",
+  g2: "#2D5A3D", 
+  g3: "#1B4332",
   neutral: {
     50: "#fafafa",
     100: "#f4f4f5",
