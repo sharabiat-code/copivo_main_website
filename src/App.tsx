@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from 'react';
-import copivoLogo from '../favicon.png';
 import { motion, useScroll, useTransform } from 'framer-motion';
 import { ArrowRight, BarChart3, Bot, Gauge, Layers, LineChart, Megaphone, Settings, ShieldCheck, Sparkles, Wallet, Menu, X, Star } from 'lucide-react';
 
@@ -337,11 +336,7 @@ export default function CopivoLanding() {
             className="flex items-center gap-3"
             whileHover={{ scale: 1.05 }}
           >
-            <img src={copivoLogo} alt="copivo" className="w-10 h-10 rounded-2xl shadow-lg object-cover" />
-            <div>
-              <div className="text-xl font-black leading-none" style={{ color: 'var(--fg)' }}>copivo</div>
-              <div className="text-xs opacity-70" style={{ color: 'var(--fg)' }}>Power Your Next Pivot</div>
-            </div>
+            <img src="/project/logo (2).png" alt="copivo" className="h-8 object-contain" />
           </motion.div>
           
           <nav className="hidden lg:flex items-center gap-8 text-base font-medium" style={{ color: 'var(--fg)' }}>
@@ -913,7 +908,7 @@ export default function CopivoLanding() {
             className="glass rounded-3xl p-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-8"
           >
             <div>
-              <div className="text-3xl font-black mb-2" style={{ color: 'var(--fg)' }}>copivo</div>
+              <img src="/project/logo (2).png" alt="copivo" className="h-8 object-contain mb-2" />
               <div className="text-lg opacity-70 mb-4" style={{ color: 'var(--fg)' }}>Power Your Next Pivot</div>
               <div className="text-sm opacity-60" style={{ color: 'var(--fg)' }}>
                 © {new Date().getFullYear()} Copivo. All rights reserved.
