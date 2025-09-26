@@ -336,7 +336,13 @@ export default function CopivoLanding() {
             className="flex items-center gap-3"
             whileHover={{ scale: 1.05 }}
           >
-            <img src="/project/logo (2).png" alt="copivo" className="h-8 object-contain" />
+            <div className="w-10 h-10 rounded-full flex items-center justify-center text-white font-bold text-lg shadow-lg" style={{ background: gradient }}>
+              C
+            </div>
+            <div>
+              <div className="text-xl font-black leading-none" style={{ color: 'var(--fg)' }}>copivo</div>
+              <div className="text-xs opacity-70" style={{ color: 'var(--fg)' }}>Power Your Next Pivot</div>
+            </div>
           </motion.div>
           
           <nav className="hidden lg:flex items-center gap-8 text-base font-medium" style={{ color: 'var(--fg)' }}>
