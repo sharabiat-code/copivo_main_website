@@ -908,7 +908,7 @@ export default function CopivoLanding() {
             className="glass rounded-3xl p-8 flex flex-col md:flex-row items-start md:items-center justify-between gap-8"
           >
             <div>
-              <img src="/project/logo (2).png" alt="copivo" className="h-8 object-contain mb-2" />
+              <img src="/logo (2).png" alt="copivo" className="h-6 object-contain" />
               <div className="text-lg opacity-70 mb-4" style={{ color: 'var(--fg)' }}>Power Your Next Pivot</div>
               <div className="text-sm opacity-60" style={{ color: 'var(--fg)' }}>
                 © {new Date().getFullYear()} Copivo. All rights reserved.
